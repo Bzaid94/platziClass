@@ -1,10 +1,10 @@
 package com.persistence;
 
-import com.persistence.sql.ConnectionDB;
+import com.persistence.controller.MessagesController;
 
 public class Main {
     public static void main(String[] args) {
-        ConnectionDB connectionDB = new ConnectionDB();
-        connectionDB.getConnection();
+        MessagesController messagesController = new MessagesController();
+        messagesController.processMessages();
     }
 }

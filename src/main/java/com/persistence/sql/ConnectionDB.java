@@ -9,8 +9,7 @@ public class ConnectionDB {
         Connection connection = null;
 
         try{
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/message_app", "root", "Techmoon");
-            System.out.println("Connection success");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/messageApp", "root", "Tech1234");
 
             return connection;
 
